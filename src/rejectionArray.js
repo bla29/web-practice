@@ -1,0 +1,1 @@
+export default ['Confirm </3', 'Are you sure...</3', 'Are you really sure...</3']

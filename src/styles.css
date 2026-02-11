@@ -1,0 +1,97 @@
+body {
+    background-color: #a0d2eb;
+}
+
+.main-div {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#header-text {
+    text-align: center;
+}
+
+#cover-photo {
+    height: 300px;
+    width: 300px;
+    align-self: center;
+}
+
+.yes-button {
+    background: #006AE8;
+    border: 1px solid #006AE8;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.yes-button:hover,
+.yes-button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #006AE8;
+}
+
+.yes-button:active {
+    opacity: .5;
+}
+
+.no-button {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.no-button:hover,
+.no-button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.no-button:active {
+    opacity: .5;
+}
